@@ -1,0 +1,20 @@
+package str;
+
+public class Product {
+	private int productId;
+	private String proName;
+	public int getProductId() {
+		return productId;
+	}
+	public void setProductId(int productId) {
+		this.productId = productId;
+	}
+	public String getProName() {
+		return proName;
+	}
+	public void setProName(String proName) {
+		this.proName = proName;
+	}
+	 
+	
+}
