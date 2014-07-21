@@ -14,15 +14,16 @@
 <property name="connection.password">user</property>
 <!-- Related to the connection END -->
  
-<!-- Related to hibernate properties START -->
+
 <property name="show_sql">true </property>
-<!-- <property name="dialet">org.hibernate.dialect.OracleDialect </property> -->
+<property name="dialet">org.hibernate.dialect.OracleDialect </property>
 <property name="hbm2ddl.auto">update </property>
-<!-- Related to hibernate properties END -->
+
  
 <!-- Related to mapping START -->
-<mapping resource="Product.hbm.xml" />
+<!-- <mapping resource="Product.hbm.xml" /> -->
 <!-- Related to the mapping END -->
+<mapping class="str.Product"/>
  
 </session-factory>
 </hibernate-configuration>
